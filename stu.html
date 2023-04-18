@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stu.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div id="firstname"><h3>Firstname:</h3></div>
+            <div id="lastname"><h3>Lastname:</h3></div>
+            <div id="username"><h3>Username:</h3></div>
+            <div id="reg"><h3>RegNum:</h3></div>
+
+
+            <img src="images.jpeg" id="profile">
+            <label for="file">update Image</label>
+            <input type="file"  id="file">
+        </div>
+        <button type="submit">Submit</button>
+    </div>
+    <div id="demo"></div>
+    <!-- <script>
+       let profile = document.getElementById('profile');
+        let file = document.getElementById('file');
+
+        file.onchange = function(){
+        profile.src =URL.createObjectURL(file.files[0]);
+}
+    </script> -->
+    <script src="stu.js"></script>
+</body>
+</html>
